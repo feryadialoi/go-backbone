@@ -2,9 +2,9 @@ package boot
 
 import (
 	"context"
-	"github.com/feryadialoi/demo/boot/grpc"
-	"github.com/feryadialoi/demo/boot/prometheus"
-	"github.com/feryadialoi/demo/boot/rest"
+	"github.com/feryadialoi/go-backbone/boot/grpc"
+	"github.com/feryadialoi/go-backbone/boot/prometheus"
+	"github.com/feryadialoi/go-backbone/boot/rest"
 	"log"
 	"sync"
 )

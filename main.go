@@ -2,11 +2,11 @@ package main
 
 import (
 	"context"
-	"github.com/feryadialoi/demo/boot"
-	"github.com/feryadialoi/demo/boot/grpc"
-	"github.com/feryadialoi/demo/boot/prometheus"
-	"github.com/feryadialoi/demo/boot/rest"
-	"github.com/feryadialoi/demo/config"
+	"github.com/feryadialoi/go-backbone/boot"
+	"github.com/feryadialoi/go-backbone/boot/grpc"
+	"github.com/feryadialoi/go-backbone/boot/prometheus"
+	"github.com/feryadialoi/go-backbone/boot/rest"
+	"github.com/feryadialoi/go-backbone/config"
 )
 
 func main() {
