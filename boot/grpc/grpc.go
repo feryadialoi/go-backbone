@@ -16,7 +16,7 @@ func NewGRPC() *GRPC {
 
 func (g *GRPC) Run() error {
 	log.Println(fmt.Sprintf("GRPC: run on port %v", g.port))
-	return fmt.Errorf("GRPC: err")
+	return nil
 }
 
 func (g *GRPC) SetPort(port int) {
